@@ -1,0 +1,238 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
+:root {
+  --color-text-blue: #2196f3;
+  --color-text-white: #ffffff;
+}
+
+.logo-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-text-blue);
+}
+
+/* МЕНЮ */
+
+.head-studia,
+.head-kontakty,
+.head-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.head-studia:hover,
+.head-studia:focus,
+.head-portfolio:hover,
+.head-portfolio:focus,
+.head-kontakty:hover,
+.head-kontakty:focus {
+  color: var(--color-text-blue);
+}
+
+/* КОНТАКТИ */
+
+.head-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.head-mail:hover,
+.head-mail:focus {
+  color: var(--color-text-blue);
+}
+
+.head-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.head-tel:hover,
+.head-tel:focus {
+  color: var(--color-text-blue);
+}
+
+/* ГЕРОЙ */
+
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+}
+.title-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--color-text-blue);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.title-button:focus {
+  color: #ffffff;
+}
+
+.title-button:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-fon {
+  background-color: #2f303a;
+}
+/* головна особливості */
+
+.main-special h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.main-special p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* зайнятість */
+
+.business {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list-none li {
+  background-color: var(--color-text-white);
+}
+
+/* футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-studio-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-text-white);
+}
+
+/* портфоліо */
+.button-menu-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.button-menu-portfolio:hover {
+  background-color: var(--color-text-blue);
+  color: var(--color-text-white);
+}
+
+.portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.head-menu:current {
+  color: var(--color-text-blue);
+}
